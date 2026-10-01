@@ -1,0 +1,38 @@
+=== RUN   TestPlaceOrderAIMock
+--- PASS: TestPlaceOrderAIMock (0.00s)
+=== RUN   TestPlaceOrder_Success
+--- PASS: TestPlaceOrder_Success (0.00s)
+=== RUN   TestPlaceOrder_PropagatesError
+--- PASS: TestPlaceOrder_PropagatesError (0.00s)
+=== RUN   TestOrderServiceUsesInjectedStore
+--- PASS: TestOrderServiceUsesInjectedStore (0.00s)
+PASS
+ok  	example.com/lesson03/orders	0.369s
+=== RUN   TestTransactionLogInfo
+--- PASS: TestTransactionLogInfo (0.00s)
+=== RUN   TestCreditCardFields
+--- PASS: TestCreditCardFields (0.00s)
+=== RUN   TestCryptoWalletFields
+--- PASS: TestCryptoWalletFields (0.00s)
+=== RUN   TestCreditCardPayMutatesBalance
+--- PASS: TestCreditCardPayMutatesBalance (0.00s)
+=== RUN   TestCreditCardPayInsufficientBalance
+--- PASS: TestCreditCardPayInsufficientBalance (0.00s)
+=== RUN   TestCryptoWalletPayMutatesBalance
+--- PASS: TestCryptoWalletPayMutatesBalance (0.00s)
+=== RUN   TestCryptoWalletPayInsufficientBalance
+--- PASS: TestCryptoWalletPayInsufficientBalance (0.00s)
+=== RUN   TestProcessPaymentPolymorphic
+Payment successful. ID: poly-c, Timestamp: 2026-10-01T15:43:20+03:00
+Payment successful. ID: poly-w, Timestamp: 2026-10-01T15:43:20+03:00
+--- PASS: TestProcessPaymentPolymorphic (0.00s)
+PASS
+ok  	example.com/lesson03/payment	0.144s
+=== RUN   TestApplyDeposits
+--- PASS: TestApplyDeposits (0.00s)
+=== RUN   TestApplyDeposits_EmptySlice
+--- PASS: TestApplyDeposits_EmptySlice (0.00s)
+=== RUN   TestApplyDeposits_MultipleCalls
+--- PASS: TestApplyDeposits_MultipleCalls (0.00s)
+PASS
+ok  	example.com/lesson03/wallet	0.254s
